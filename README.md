@@ -1,4 +1,4 @@
-# argentcrusade/selectel-cloud-storage
+# seoperin/selectel-cloud-storage
 
 [![Build Status][ico-travis]][link-travis]
 [![StyleCI][ico-styleci]][link-styleci]
