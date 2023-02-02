@@ -16,22 +16,22 @@ This package requires PHP 5.6 or higher.
 You can install the package via composer:
 
 ``` bash
-$ composer require argentcrusade/selectel-cloud-storage
+$ composer require seoperin/selectel-cloud-storage
 ```
 
 ## Usage
 
 ### Initialize Storage
 ``` php
-use ArgentCrusade\Selectel\CloudStorage\Api\ApiClient;
-use ArgentCrusade\Selectel\CloudStorage\CloudStorage;
+use Seoperin\Selectel\CloudStorage\Api\ApiClient;
+use Seoperin\Selectel\CloudStorage\CloudStorage;
 
 $apiClient = new ApiClient('username', 'password');
 $storage = new CloudStorage($apiClient);
 ```
 
 ### CloudStorage
-`ArgentCrusade\Selectel\CloudStorage\CloudStorage` class allows you to access and create containers.
+`Seoperin\Selectel\CloudStorage\CloudStorage` class allows you to access and create containers.
 
 ```php
 // Retrieve single container.
